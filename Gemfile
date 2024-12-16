@@ -1,7 +1,6 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3.4" # installed by `gem jekyll`
-# gem "webrick"        # required when using Ruby >= 3 and Jekyll <= 4.2.2
+gem "jekyll", "~> 4.0" # Ensure you are using a supported version of Jekyll
+gem "just-the-docs", "~> 0.4" # Ensure you are using the correct version of Just the Docs theme
+gem "github-pages", group: :jekyll_plugins
 
-gem "just-the-docs", "0.10.0" # pinned to the current release
-# gem "just-the-docs"        # always download the latest release
